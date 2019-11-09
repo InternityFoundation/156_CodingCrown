@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+//this is a test comment for commit and push demonstration
 public class MainActivity extends AppCompatActivity {
 
     @Override
