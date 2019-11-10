@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".burnActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:text="Prediction :"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Burn"
+                android:textSize="45dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/burntop" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Treating major burns (Second and Third degree burns):"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F53326"
+                android:onClick="callAmb"
+                android:text="Call an Ambulance"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#EE5C5C"
+                android:onClick="callFam"
+                android:text="Call Family Member"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#EE8080"
+                android:onClick="sendLocation"
+                android:text="Send location"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Until the emergency help arise do these steps:"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/burnfirst" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="•	Protect the burned person from further harm. \n•	 Make certain that the person burned is breathing. \n•	 Remove jewelry, belts and other restrictive items, especially from around burned areas and the neck. Burned areas swell rapidly.\n•	Cover the area of the burn. Use a cool, moist bandage or a clean cloth.\n•	Don't immerse large severe burns in water. \n•	 Elevate the burned area. Raise the wound above heart level, if possible.\n•	Watch for signs of shock. Signs and symptoms include fainting, pale complexion or breathing in a notably shallow fashion."
+                android:textSize="24dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:text="Upload pictures of victim's wound:"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:onClick="upload"
+                android:text="Upload"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="\n____________________________________"
+                android:textSize="24dp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="\nFor minor burns (First degree burns):"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="•	Cool the burn. \n•	Remove rings or other tight items from the burned area\n•	Don't break blisters. Fluid-filled blisters protect against infection. If a blister breaks, clean the area with water (mild soap is optional). Apply an antibiotic ointment.\n•	Apply lotion. \n•	 Bandage the burn. Cover the burn with a sterile gauze bandage (not fluffy cotton). Wrap it loosely to avoid putting pressure on burned skin. \n•	If needed, take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin IB, others), naproxen sodium (Aleve) or acetaminophen (Tylenol, others)."
+                android:textSize="24dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

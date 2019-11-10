@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".yesparkinsonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:text="Prediction :"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="You are prone to Parkinson's Disease."
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/parkinsonimg"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Energy Conserving Tips for Those with Parkinson's Disease:"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="•	Simplify your tasks and set realistic goals. Don't think you have to do things the same way you've always done them.\n•	Plan your activities (chores, exercise, and recreation) ahead of time. Space them out throughout the day. Do not schedule too many things to do in one day. Do the things that take more energy when you are feeling your best.\n•	If needed, rest before and after activities.\n•	If you become tired during an activity, stop and rest. You may need to finish it on another day or when you feel less tired.\n•	Do not plan activities right after a meal. Rest 20-30 minutes after each meal.\n•	Ask for help. Divide the tasks among family and friends."
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

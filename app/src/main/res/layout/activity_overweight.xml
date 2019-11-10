@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".overweightActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="Your BMI Indicates that:"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="You are Overweight"
+                android:textSize="43dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Here are some tips to be healthy:"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1. Eat a good breakfast. Studies show that eating breakfast protects against being overweight.\n2. Push away from the table before you feel full. It takes about 20 minutes for your brain to register that your stomach is full.\n3. Split meals. In restaurants, portions can be huge enough for two or three. Share desserts.\n4. Eat only when you’re hungry and eat only real foods: fruits, vegetables, meats, nuts, and seeds.\n5.	Set realistic goals. Start slowly with a goal of reducing body weight by 10 percent over 6 months (a reduction of 500 to 1000 calories per day amounts to approximately 1 to 2 pounds per week).\n8.	Make time to exercise. Physical activity should be part of a comprehensive weight loss therapy and weight control program because it contributes to weight loss and reduction of abdominal fat."
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/overweight" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
